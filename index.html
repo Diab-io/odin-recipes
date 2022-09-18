@@ -3,22 +3,39 @@
     <head>
         <meta charset="utf-8">
         <title>Odin Recipes</title>
+
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <h1>Welcome to Odin Recipes</h1>
-        <p>The aim of this website is to reach as many people and enlighten them and hopefully</p>
-        <p>Make them fall in love with my favorite foods, with detailed ways of preparing them</p>
-        <img src="./images/home.jpeg" alt="logo">
+        <nav id="nav-bar">
+            <a href="./index.html"><img src="./images/icon.jpg" alt="logo"></a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
 
-        <h1>Odin Recipes</h1>
-        <p>Here are a few recipes for you to check out</p>
-        <p>In the nearest future more will be added</p>
-        <ul>
-            <li><a href="./recipes/waffles.html">Waffles</a></li>
-            <li><a href="./recipes/scrambled.html">Scrambled egg muffins</a></li>
-            <li><a href="./recipes/meatloaf.html">Meatloaf</a></li>
-        </ul>
+        <div class="container">
+            <div class="intro">
+                <h1>Welcome to Odin Recipes</h1>
+                    <p>The aim of this website is to reach as many people and enlighten them and hopefully
+                    Make them fall in love with my favorite foods, with detailed ways of preparing them</p>
+                    <img src="./images/home.jpeg" alt="logo">
+            </div>
 
-        <a href="#">Back to top</a>
+            <div class="recipes">
+                <h1>Odin Recipes</h1>
+                <p>Here are a few recipes for you to check out</p>
+                <p>In the nearest future more will be added</p>
+                <ul>
+                    <li><a href="./recipes/waffles.html">Waffles</a></li>
+                    <li><a href="./recipes/scrambled.html">Scrambled egg muffins</a></li>
+                    <li><a href="./recipes/meatloaf.html">Meatloaf</a></li>
+                </ul>
+            </div>
+        </div>
+        <a id="top" href="#">Back to top</a>
     </body>
 </html>
