@@ -45,6 +45,8 @@ body {
 .intro {
     padding: 40px;
     margin-left: 70px;
+    width: 80%;
+    margin: auto;
 }
 
 .intro h1 {
@@ -53,4 +55,15 @@ body {
 
 .intro img {
     margin-left: 200px;
+}
+
+.recipes {
+    padding: 40px;
+    margin-left: 70px;
+    width: 80%;
+    margin: auto;
+}
+
+.recipes h1 {
+    text-align: center;
 }
