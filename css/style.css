@@ -14,7 +14,7 @@ body {
 }
 
 #nav-bar a:hover {
-    color: red;
+    color: coral;
 }
 
 .container{
@@ -82,7 +82,7 @@ body {
     border-radius: 10px;
     background-color: white;
     height: 300px;
-    margin-right: 30px;
+    margin-right: 33px;
 }
 
 .box-1 .image,
@@ -139,4 +139,10 @@ body {
     border: 1px solid;
     background-color: black;
     color: white;
+}
+
+.box-1 .but a:hover,
+.box-2 .but a:hover,
+.box-3 .but a:hover {
+    color: coral;
 }
