@@ -4,6 +4,10 @@ body {
     line-height: 1.6em;
 }
 
+.clr {
+    clear: left;
+}
+
 #nav-bar a {
     color: white;
     text-decoration: none;
@@ -66,4 +70,73 @@ body {
 
 .recipes h1 {
     text-align: center;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    height: 300px;
+    margin-right: 30px;
+}
+
+.box-1 .image,
+.box-2 .image,
+.box-3 .image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: 100% 100%;
+    height: 120px;
+}
+
+.box-1 .image {
+    background-image: url("../images/waffles.jpeg");
+}
+
+.box-2 .image {
+    background-image: url("../images/scrambled.jpg");
+}
+
+.box-3 .image {
+    background-image: url("../images/meatloaf.jpeg");
+}
+
+.box-1 .title,
+.box-2 .title,
+.box-3 .title{
+    text-align: center;
+    color: coral;
+}
+
+.box-1 .des,
+.box-2 .des,
+.box-3 .des {
+    text-align: center;
+}
+
+.box-1 .but,
+.box-2 .but,
+.box-3 .but {
+    text-align: center;
+}
+
+.box-1 .but a,
+.box-2 .but a,
+.box-3 .but a {
+    margin: -10px 5px 5px 0;
+    padding: 7px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid;
+    background-color: black;
+    color: white;
 }
